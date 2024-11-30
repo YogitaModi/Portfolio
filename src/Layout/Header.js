@@ -52,12 +52,17 @@ const Header = () => {
           <a
             href="https://www.linkedin.com/in/yogita-modi-b55728169"
             target="_blank"
+            rel="noreferrer"
           >
             <i className="fa-brands fa-linkedin-in"></i>
           </a>
         </h4>
         <h4 className="nav-item">
-          <a href="https://github.com/YogitaModi" target="_blank">
+          <a
+            href="https://github.com/YogitaModi"
+            target="_blank"
+            rel="noreferrer"
+          >
             <i className="fa-brands fa-github"></i>
           </a>
         </h4>
