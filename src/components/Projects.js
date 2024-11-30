@@ -48,6 +48,7 @@ const Projects = () => {
             <a
               href="https://fullstack-ecommerce-website.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <i className="fa-light fa-link" style={{ color: "#B197FC" }} />
             </a>
@@ -68,7 +69,11 @@ const Projects = () => {
               Shuffling the cards, setting up the timer and for challenging
               itself, can set the number of moves for completing the game.
             </p>
-            <a href="https://bingo-blaster.onrender.com/" target="_blank">
+            <a
+              href="https://bingo-blaster.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <i className="fa-light fa-link" style={{ color: "#B197FC" }} />
             </a>
           </div>
