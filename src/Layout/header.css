@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lexend+Deca:wght@100..900&family=Playwrite+AU+VIC:wght@100..400&family=Playwrite+CO:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+.html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color:   #D8BFD8 ;
+    padding: 5px;
+    justify-content: flex-end;
+    
+    
+}
+.logo{
+position: fixed;
+left: 5px;
+top:5px;
+
+}
+.navbar .nav-item{
+    
+    color: black;
+}
+.nav-item{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    cursor: pointer;
+    letter-spacing: 3px;
+    text-decoration: none;
+    margin-right:10px ;
+    padding: 10px;
+    font-size: 18px;
+}
+.nav-item a{
+    color: black;
+}
+.nav-item:hover{
+    text-decoration: underline;
+    color: rebeccapurple;
+}
+.logo{
+    height:7vw;
+    width: 7vw;
+    /* background-color: #0C2340; */
+    background-color: #800080de;
+    border-radius: 50%;
+    color: honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 3vw;
+}
+
+/* .footer{
+    width:100vw;
+    height: 5vh;
+    background-color:#452c63b2;
+} */
