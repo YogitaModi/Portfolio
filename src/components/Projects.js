@@ -13,7 +13,7 @@ const Projects = () => {
     if (value === "project") handleScrolling();
   }, [value]);
   return (
-    <div ref={project} className="contact">
+    <div ref={project} className="projects">
       <h1 className="contact pro-heading">Projects</h1>
       <div className="row">
         <div className="col-md-1"></div>

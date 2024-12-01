@@ -40,7 +40,7 @@ top:5px;
 .logo{
     height:7vw;
     width: 7vw;
-    /* background-color: #0C2340; */
+    
     background-color: #800080de;
     border-radius: 50%;
     color: honeydew;
@@ -53,9 +53,19 @@ top:5px;
     letter-spacing: 3px;
     font-size: 3vw;
 }
-
-/* .footer{
-    width:100vw;
-    height: 5vh;
-    background-color:#452c63b2;
-} */
+@media only  screen and (max-width:400px)
+ {
+  .logo{
+    height: 15vw;
+    width: 15vw;
+    font-size: 8vw;
+  }
+  .nav-item{
+    margin: 2px;
+  }
+  .navbar{
+  /* flex-direction: column; */
+    flex-wrap: wrap;
+    
+  }
+ }

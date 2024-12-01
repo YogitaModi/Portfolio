@@ -21,8 +21,8 @@ const Skills = () => {
     if (value === "skills") handleScrolling();
   }, [value]);
   return (
-    <div ref={skills} className="projects">
-      <h1 className="projects pro-heading">Skills</h1>
+    <div ref={skills} className="skills">
+      <h1 className="contact pro-heading">Skills</h1>
       <div className="skills">
         <h5 className="skill" data-aos="fade-right">
           <img src={js} alt="logo" />
