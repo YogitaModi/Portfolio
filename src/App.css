@@ -282,7 +282,7 @@ video{
   }
   .project{
     width: 100vw;
-   
+   border: none;
   }
   
   .contact-form{
