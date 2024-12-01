@@ -278,13 +278,17 @@ video{
   .projects{
     position: relative;
     top: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
    
   }
   .project{
     width: 100vw;
     border: none;
     margin-top:2px ;
-    padding: 2px;
+    
   }
   
   .contact-form{
