@@ -263,10 +263,12 @@ video{
   .projects{
     position: relative;
     top: 100px;
+    padding: 10px;
   }
   .project{
     width: 100vw;
-    margin: 10px;
+   
+    
   }
   .contact-form{
     position: relative;
