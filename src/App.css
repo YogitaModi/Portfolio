@@ -268,12 +268,14 @@ video{
   .project{
     width: 100vw;
     padding: 5px;
-    margin-top: 5px;
+    margin: 5px;
   }
   .contact-form{
     position: relative;
     top: 100px;
     height: 100%;
   }
-
+.form{
+  height: 100%;
+}
 }
