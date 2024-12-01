@@ -283,6 +283,7 @@ video{
   .project{
     width: 100vw;
    border: none;
+   margin: 0;
   }
   
   .contact-form{
