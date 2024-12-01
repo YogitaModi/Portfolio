@@ -244,10 +244,10 @@ video{
   }
   .resume{
     position: relative;
-    top:100px;
+   top:590px;
     height:40px;
     width: 105px;
-    margin-top: 3px;
+    /* margin-top: 3px; */
   }
   .resume a{
     height:35px;
@@ -260,7 +260,7 @@ video{
   }
   .contact{
     position: relative;
-    top: 90px;
+    top: 120px;
   }
   .projects{
     position: relative;
