@@ -24,6 +24,7 @@ const Projects = () => {
                 src={choco}
                 width="410"
                 height="230"
+                controls
                 autoplay={true}
                 loop
                 muted

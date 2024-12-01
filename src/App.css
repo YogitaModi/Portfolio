@@ -160,7 +160,7 @@
 }
 .pro-video{
  object-fit: cover;
- /* background-color: rebeccapurple; */
+ 
  
 }
 video{
@@ -246,6 +246,7 @@ video{
   .resume{
     height:40px;
     width: 105px;
+    margin-top: 3px;
   }
   .resume a{
     height:35px;
@@ -268,6 +269,9 @@ video{
   .project{
     width: 100vw;
     padding: 5px;
+    margin: 5px;
+  }
+  .pro-video{
     margin: 5px;
   }
   .contact-form{
