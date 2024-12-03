@@ -26,71 +26,68 @@ const Skills = () => {
         <h1>Skills</h1>
       </div>
       <div ref={skills} className="skills">
-        <div className="skills">
-          <h5 className="skill" data-aos="fade-right">
-            <img src={js} alt="logo" />
-            Javascript
-          </h5>
-          <h5 className="skill" data-aos="fade-down">
-            {" "}
-            <img src={css} alt="logo" />
-            Css
-          </h5>
-          <h5 className="skill" data-aos="fade-left">
-            {" "}
-            <img src={bootstrap} alt="logo" />
-            Bootstrap
-          </h5>
-          <h5 className="skill" data-aos="fade-right">
-            {" "}
-            <img src={express} alt="logo" />
-            Express Js
-          </h5>
-          <h5 className="skill" data-aos="zoom-in-up">
-            {" "}
-            <img src={react} alt="logo" />
-            React Js
-          </h5>
-          <h5 className="skill" data-aos="fade-left">
-            {" "}
-            <img src={node} alt="logo" />
-            Node Js
-          </h5>
-          <h5 className="skill" data-aos="fade-right">
-            {" "}
-            <img src={mongodb} alt="logo" />
-            Mongo DB
-          </h5>
-          <h5 className="skill" data-aos="zoom-in-up">
-            {" "}
-            <img src={web} alt="logo" />
-            Web Development
-          </h5>
-          <h5 className="skill" data-aos="fade-left">
-            {" "}
-            <img src={frontend} alt="logo" />
-            Frontend Development
-          </h5>
-          <h5
-            className="skill"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            {" "}
-            <img src={mongodb} alt="logo" />
-            Backend Development
-          </h5>
-          <h5
-            className="skill"
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-          >
-            {" "}
-            <img src={mongodb} alt="logo" />
-            Full Stack Development
-          </h5>
-        </div>
-        <p></p>
+        <h5 className="skill" data-aos="fade-right">
+          <img src={js} alt="logo" />
+          Javascript
+        </h5>
+        <h5 className="skill" data-aos="fade-down">
+          {" "}
+          <img src={css} alt="logo" />
+          Css
+        </h5>
+        <h5 className="skill" data-aos="fade-left">
+          {" "}
+          <img src={bootstrap} alt="logo" />
+          Bootstrap
+        </h5>
+        <h5 className="skill" data-aos="fade-right">
+          {" "}
+          <img src={express} alt="logo" />
+          Express Js
+        </h5>
+        <h5 className="skill" data-aos="zoom-in-up">
+          {" "}
+          <img src={react} alt="logo" />
+          React Js
+        </h5>
+        <h5 className="skill" data-aos="fade-left">
+          {" "}
+          <img src={node} alt="logo" />
+          Node Js
+        </h5>
+        <h5 className="skill" data-aos="fade-right">
+          {" "}
+          <img src={mongodb} alt="logo" />
+          Mongo DB
+        </h5>
+        <h5 className="skill" data-aos="zoom-in-up">
+          {" "}
+          <img src={web} alt="logo" />
+          Web Development
+        </h5>
+        <h5 className="skill" data-aos="fade-left">
+          {" "}
+          <img src={frontend} alt="logo" />
+          Frontend Development
+        </h5>
+        <h5
+          className="skill"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          {" "}
+          <img src={mongodb} alt="logo" />
+          Backend Development
+        </h5>
+        <h5
+          className="skill"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          {" "}
+          <img src={mongodb} alt="logo" />
+          Full Stack Development
+        </h5>
       </div>
     </>
   );

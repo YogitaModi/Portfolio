@@ -19,7 +19,6 @@ const Projects = () => {
       </div>
       <div ref={project} className="projects">
         <div className="row">
-          <div className="col-md-1"></div>
           <div className="col-md-5 projects">
             <div className="project" data-aos="zoom-in">
               <div className="pro-video">
@@ -27,8 +26,7 @@ const Projects = () => {
                   src={choco}
                   width="410"
                   height="230"
-                  controls
-                  autoplay={true}
+                  autoplay="true"
                   loop
                   muted
                 ></video>
