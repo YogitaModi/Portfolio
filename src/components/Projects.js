@@ -17,7 +17,7 @@ const Projects = () => {
       <div className="pro-heading">
         <h1>Projects</h1>
       </div>
-      <div ref={project} className="projects">
+      <div ref={project}>
         <div className="row">
           <div className="col-md-5 projects">
             <div className="project" data-aos="zoom-in">
