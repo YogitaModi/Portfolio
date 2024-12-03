@@ -252,7 +252,7 @@ video{
   }
   .pro-heading{
     position: relative;
-    top: 150px;
+    top: 130px;
   }
   .resume{
     position: absolute;
@@ -268,14 +268,14 @@ video{
   }
   .skills{
     position: relative;
-    top: 110px;
+    top: 100px;
   }
   .skill {
    font-size: 15px;
-   /* margin: 0px; */
-   flex: 25%;
+  flex: 25%;
    width: 20px;
    height: 150px;
+   margin: 0px;
   }
   .skill img{
     width: 60px;
