@@ -49,60 +49,58 @@ const Contact = () => {
       <div className="pro-heading">
         <h1>Contact Me!</h1>
       </div>
-      <div ref={contact} className="contact">
-        <div className="contact-form">
-          <form onSubmit={handleContact} className="form">
-            <div className="mb-3 form-body">
-              <label htmlFor="exampleInputEmail1" className="form-label">
-                Full Name
-              </label>
-              <input
-                type="text"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                value={name}
-                onChange={(e) => {
-                  setName(e.target.value);
-                }}
-              />
-            </div>
+      <div ref={contact} className="contact-form">
+        <form onSubmit={handleContact} className="form">
+          <div className="mb-3 form-body">
+            <label htmlFor="exampleInputEmail1" className="form-label">
+              Full Name
+            </label>
+            <input
+              type="text"
+              className="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              value={name}
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+            />
+          </div>
 
-            <div className="mb-3 form-body">
-              <label htmlFor="exampleInputEmail1" className="form-label">
-                Email address
-              </label>
-              <input
-                type="email"
-                className="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-              />
-            </div>
-            <div className="mb-3 form-body">
-              <label htmlFor="exampleInputPassword1" className="form-label">
-                Message
-              </label>
-              <textarea
-                type="text"
-                className="form-control"
-                id="exampleInputPassword1"
-                placeholder="message..."
-                value={message}
-                onChange={(e) => {
-                  setMessage(e.target.value);
-                }}
-              />
-            </div>
-            <button type="submit" className="btn btn-outline-primary">
-              Send
-            </button>
-          </form>
-        </div>
+          <div className="mb-3 form-body">
+            <label htmlFor="exampleInputEmail1" className="form-label">
+              Email address
+            </label>
+            <input
+              type="email"
+              className="form-control"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              value={email}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+            />
+          </div>
+          <div className="mb-3 form-body">
+            <label htmlFor="exampleInputPassword1" className="form-label">
+              Message
+            </label>
+            <textarea
+              type="text"
+              className="form-control"
+              id="exampleInputPassword1"
+              placeholder="message..."
+              value={message}
+              onChange={(e) => {
+                setMessage(e.target.value);
+              }}
+            />
+          </div>
+          <button type="submit" className="btn btn-outline-primary">
+            Send
+          </button>
+        </form>
       </div>
     </>
   );
