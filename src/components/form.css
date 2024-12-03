@@ -59,10 +59,7 @@ h1{
     .contact-form{
         position: relative;
         top: 90px;
-        height: 100%;
+       
       }
-    .form{
-     height: 100% !important;
-     width: 100% !important;
-    }
+    
 }
