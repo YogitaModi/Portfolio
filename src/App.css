@@ -216,14 +216,6 @@ video{
   height: 50px;
 }
 
-/* contact page */
-.contact{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
 @media  screen and (max-width:400px)
  {
@@ -297,13 +289,5 @@ video{
     margin-top:2px ;
  }
   
-  .contact-form{
-    position: relative;
-    top: 90px;
-    height: 100%;
-  }
-.form{
- height: 100% !important;
- width: 100% !important;
-}
+ 
 }

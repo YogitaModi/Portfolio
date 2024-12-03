@@ -54,3 +54,15 @@ h1{
     background-color: #D8BFD8 !important ;
     border: none;
 }
+
+@media screen and (max-width:400px){
+    .contact-form{
+        position: relative;
+        top: 90px;
+        height: 100%;
+      }
+    .form{
+     height: 100% !important;
+     width: 100% !important;
+    }
+}
