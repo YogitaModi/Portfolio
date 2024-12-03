@@ -50,7 +50,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-light fa-link" style={{ color: "#B197FC" }} />
+            <i className="fa-solid fa-link" style={{ color: "#663399" }} />
           </a>
         </div>
         <div className="project" data-aos="zoom-in">
@@ -74,7 +74,7 @@ const Projects = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className="fa-light fa-link" style={{ color: "#B197FC" }} />
+            <i className="fa-solid fa-link" style={{ color: "#663399" }} />
           </a>
         </div>
         <div className="project" data-aos="zoom-in">
