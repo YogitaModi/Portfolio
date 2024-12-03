@@ -14,14 +14,14 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <header className="App-header">
-        <Layout>
-          <About />
-          <Skills />
-          <Projects />
-          <Contact />
-        </Layout>
-      </header>
+      {/* <header className="App-header"> */}
+      <Layout>
+        <About />
+        <Skills />
+        <Projects />
+        <Contact />
+      </Layout>
+      {/* /</header> */}
     </div>
   );
 }
